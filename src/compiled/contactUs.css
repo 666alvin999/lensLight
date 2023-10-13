@@ -1,0 +1,42 @@
+.contact-us {
+  display: flex;
+  flex-direction: row;
+}
+.contact-us > .contact-us-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  background-color: #ff088f;
+  font-size: 48px;
+  color: white;
+}
+.contact-us > .contact-us-left-container > * {
+  align-self: center;
+}
+.contact-us > .contact-us-left-container > .wrapper > h2 {
+  margin: 0;
+}
+.contact-us > .contact-us-left-container > .wrapper > button {
+  width: 50%;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 20px 0;
+}
+.contact-us > .contact-us-right-container {
+  width: 60%;
+  padding: 150px 0;
+  background-color: #f2bdd2;
+  display: flex;
+  justify-content: center;
+}
+.contact-us > .contact-us-right-container > * {
+  align-self: center;
+}
+.contact-us > .contact-us-right-container > img {
+  width: 400px;
+}
+
+/*# sourceMappingURL=contactUs.css.map */

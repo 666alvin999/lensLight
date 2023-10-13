@@ -1,0 +1,14 @@
+{
+  "name": "01_test_integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass --source-map --watch ./src/scss:./src/compiled"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.3"
+  }
+}

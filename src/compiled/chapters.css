@@ -1,0 +1,245 @@
+.chapter {
+  height: 100%;
+  margin: 60px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+.chapter .chapter-number {
+  font-size: 48px;
+  color: #c9c9c9;
+  font-family: Poppins-Bold, serif;
+}
+.chapter .chapter-name {
+  font-size: 36px;
+  color: black;
+  font-family: Sen-SemiBold, serif;
+}
+
+.chapter-1 > * {
+  align-self: center;
+}
+.chapter-1 #chapter-1-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chapter-1 #chapter-1-title > * {
+  margin: 0;
+  align-self: center;
+}
+.chapter-1 .picture-shot {
+  height: 960px;
+  width: 960px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-rows: repeat(3, 300px);
+  grid-template-columns: repeat(3, 300px);
+}
+.chapter-1 .picture-shot > img {
+  width: 300px;
+  height: 300px;
+}
+.chapter-1 .expand-btn {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ff088f;
+  color: white;
+  font-size: 36px;
+}
+
+.chapter-2 {
+  background-color: #f2bdd2;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.chapter-2 > .chapter-2-left-container {
+  width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.chapter-2 > .chapter-2-left-container > .wrapper {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.chapter-2 > .chapter-2-left-container > .wrapper #chapter-2-title > * {
+  margin: 0;
+  align-self: center;
+}
+.chapter-2 > .chapter-2-left-container > .wrapper #chapter-2-title > .chapter-name {
+  color: white !important;
+}
+.chapter-2 > .chapter-2-left-container > .wrapper > .about-us-btn {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #ff088f;
+  color: white;
+  border: none;
+  padding: 20px 60px;
+}
+.chapter-2 > .chapter-2-right-container {
+  padding: 70px 0;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chapter-2 > .chapter-2-right-container > img {
+  width: 400px;
+}
+
+.chapter-3 > * {
+  align-self: center;
+}
+.chapter-3 > #chapter-3-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chapter-3 > #chapter-3-title > * {
+  margin: 0;
+  align-self: center;
+}
+.chapter-3 > #member-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.chapter-3 > #member-list > .member-card > .card-img > img {
+  height: 350px;
+}
+.chapter-3 > #member-list > .member-card > .card-text {
+  padding: 20px 0;
+  background-color: white;
+  width: 88%;
+  position: relative;
+  top: -40px;
+  left: 6%;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chapter-3 > #member-list > .member-card > .card-text > * {
+  align-self: center;
+}
+.chapter-3 > #member-list > .member-card > .card-text > .member-name {
+  font-size: 24px;
+  font-family: Sen-SemiBold, sans-serif;
+}
+.chapter-3 > #member-list > .member-card > .card-text > .member-role {
+  color: #ff088f;
+}
+.chapter-3 > #member-list > .member-card > .card-text > .social-medias {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+.chapter-4 > * {
+  align-self: center;
+}
+.chapter-4 > #chapter-4-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chapter-4 > #chapter-4-title > * {
+  margin: 0;
+  align-self: center;
+}
+.chapter-4 > .customer-saying {
+  width: 55%;
+  max-height: 200px;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.2);
+  padding: 5% 100px 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.chapter-4 > .customer-saying > * {
+  text-align: center;
+  font-size: 12px;
+}
+.chapter-4 > .customer-saying > .customer-saying-title {
+  font-size: 20px;
+  font-family: Sen-SemiBold, serif;
+  margin-bottom: 20px;
+}
+.chapter-4 > .customer-img > img {
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+  top: -115px;
+}
+
+.chapter-5 {
+  margin-top: -50px;
+}
+.chapter-5 > * {
+  align-self: center;
+}
+.chapter-5 > #chapter-5-title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chapter-5 > #chapter-5-title > * {
+  margin: 0;
+  align-self: center;
+}
+.chapter-5 > .form-container > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  gap: 15px;
+}
+.chapter-5 > .form-container > form > input {
+  font-family: Sen-Regular, sans-serif;
+  font-size: 12px;
+  padding: 15px;
+  min-width: 500px;
+}
+.chapter-5 > .form-container > form > input::placeholder {
+  color: lightgrey;
+}
+.chapter-5 > .form-container > form > textarea {
+  font-family: Sen-Regular, sans-serif;
+  font-size: 12px;
+  padding: 15px;
+  height: 100px;
+  resize: none;
+}
+.chapter-5 > .form-container > form > textarea::placeholder {
+  color: lightgrey;
+}
+.chapter-5 > .form-container > form > .form-btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.chapter-5 > .form-container > form > .form-btn > button {
+  margin-top: 20px;
+  width: 120px;
+  height: 50px;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  background-color: #252525;
+}
+
+/*# sourceMappingURL=chapters.css.map */

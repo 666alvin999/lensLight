@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Sen-Bold;
+    src: url(../../fonts/Sen/Sen-Bold.ttf);
+}
+
+@font-face {
+    font-family: Sen-SemiBold;
+    src: url(../../fonts/Sen/Sen-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Sen-Regular;
+    src: url(../../fonts/Sen/Sen-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Sen-Regular, serif;
+}
+
+h1 {
+    font-family: Sen-SemiBold, serif;
+}
+
+button {
+    font-family: Sen-Bold, serif;
+}
